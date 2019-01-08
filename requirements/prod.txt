@@ -1,0 +1,14 @@
+# requirements/prod.txt
+
+# Flask
+Flask
+
+# Deployment
+gunicorn
+
+# Testing
+behave
+WebTest
+
+# for legacy python 2.7
+mock

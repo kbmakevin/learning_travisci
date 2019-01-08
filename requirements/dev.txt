@@ -1,0 +1,16 @@
+# requirements/dev.txt
+
+-r prod.txt
+
+# Debug
+Flask-DebugToolbar
+
+# PEPS
+pylint
+
+# Coverage
+coverage
+
+# Documentation
+Sphinx
+sphinx-autobuild
