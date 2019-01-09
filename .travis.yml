@@ -8,3 +8,11 @@ python:
 # install dependencies
 install:
         - pip install -r requirements/dev.txt
+
+# run scripts
+script:
+        - coverage erase
+        - coverage run test_webapp.py && coverage html
+
+after_success:
+        - codecov
