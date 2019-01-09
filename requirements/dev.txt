@@ -10,6 +10,7 @@ pylint
 
 # Coverage
 coverage
+codecov
 
 # Documentation
 Sphinx
