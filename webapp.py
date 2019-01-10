@@ -3,7 +3,7 @@ Simple web app to test TravisCI mechanism
 """
 from flask import Flask
 
-HTML="""
+HTML = """
 <!DOCTYLE html>
 <html lang="en">
     <head>
@@ -20,7 +20,7 @@ HTML="""
 </html>
 """
 
-app=Flask(__name__)
+app = Flask(__name__) # pylint: disable=invalid-name
 
 @app.route('/')
 def home():
@@ -28,5 +28,5 @@ def home():
     """
     return HTML
 
-if __name__=='__main__':
+if __name__ == '__main__':
     app.run()
