@@ -21,6 +21,6 @@ deploy:
         - provider: heroku
           app: learning-travisci
           api_key:
-          secure: XyWEZFYlbS6gmK0TUuzp/fUI789LvHzDJzLum1xUL4ipEd3TA37WNqXAW3IgRR+Jyw/eYzxAsIFOoznGCqrTaT0twKMUwhRgfNzwyRZANU6gWDnNF9LuLPC+BH3FUy3LJKdsx//ascreEfUWqcjNuSbw4xxtyklppsx5gEf38bYXwmH1YISOpV0wz6fxrhm9YA2NemYixvKqjeS88IQtI4hWBtU6nbs7p6U3qh/AATjZKQB3BnrH356Wy+kqF/yKVJgH0pqoU4jcUyn4mmWkM4vOjFtvi9mAsE6rV+jvtXjoONE+034+Xdmfd7LFfrYIyq49H/dad5ivJ5Np29Twd6AbzuA2+BxAAFfeG82CSUv6XmYEA0oD1K934dG2WO968YyLxPSx1T0fKDRlVAJ17jtpcAuGn4bkM3JRz7ZbQYBYvdnCR3cKx/P4Cua+BwGZKWsHuUUJGxpi2/SWD5aFFmIucHALyM2hokLguEXpt7fmoLj8U5RUsldWD56tU5CTY9SE4ojN5JT1y43OgMeI/VaK26hbpvxh8ve/W8yJknuJmGogWWEsxcAksAYo17PpnB6D8mbuFUmkednWcBJrFe3i4tqOM/LySQ9XFaijRX0vORqRH1UsnnC6p6DDm5Bs3DBZ9F2g3QF/sctPq5/XDHsmI2oIMBn4y/2rf9slEcM=
+                  secure: XyWEZFYlbS6gmK0TUuzp/fUI789LvHzDJzLum1xUL4ipEd3TA37WNqXAW3IgRR+Jyw/eYzxAsIFOoznGCqrTaT0twKMUwhRgfNzwyRZANU6gWDnNF9LuLPC+BH3FUy3LJKdsx//ascreEfUWqcjNuSbw4xxtyklppsx5gEf38bYXwmH1YISOpV0wz6fxrhm9YA2NemYixvKqjeS88IQtI4hWBtU6nbs7p6U3qh/AATjZKQB3BnrH356Wy+kqF/yKVJgH0pqoU4jcUyn4mmWkM4vOjFtvi9mAsE6rV+jvtXjoONE+034+Xdmfd7LFfrYIyq49H/dad5ivJ5Np29Twd6AbzuA2+BxAAFfeG82CSUv6XmYEA0oD1K934dG2WO968YyLxPSx1T0fKDRlVAJ17jtpcAuGn4bkM3JRz7ZbQYBYvdnCR3cKx/P4Cua+BwGZKWsHuUUJGxpi2/SWD5aFFmIucHALyM2hokLguEXpt7fmoLj8U5RUsldWD56tU5CTY9SE4ojN5JT1y43OgMeI/VaK26hbpvxh8ve/W8yJknuJmGogWWEsxcAksAYo17PpnB6D8mbuFUmkednWcBJrFe3i4tqOM/LySQ9XFaijRX0vORqRH1UsnnC6p6DDm5Bs3DBZ9F2g3QF/sctPq5/XDHsmI2oIMBn4y/2rf9slEcM=
           on:
                   branch: master
