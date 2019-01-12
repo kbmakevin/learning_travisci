@@ -14,6 +14,8 @@ script:
         - coverage erase
         - coverage run test_webapp.py && coverage html
         - pylint -r y webapp.py
+        - python -m unittest discover
+        - behave
 
 after_success:
         - codecov
